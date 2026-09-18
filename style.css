@@ -209,7 +209,21 @@ footer .legal .r b{display:block;margin-top:2px}
 #ty .num{display:block;font-family:Vollkorn,serif;font-size:40px;font-weight:800;color:var(--g);margin-top:24px}
 #ty .pill{height:53px;padding:0 30px;font-size:18px;font-weight:700;text-transform:uppercase;margin-top:18px}
 
+/* legal */
+#legal{margin:30px 20px;padding:45px 60px}
+#legal h1{font-size:40px;font-weight:800;line-height:1.2;text-align:center}
+#legal .eff{text-align:center;font-size:14px;margin-top:8px}
+#legal h2{font-size:24px;line-height:30px;margin-top:30px}
+#legal p,#legal li{font-size:16px;line-height:25px;color:var(--g)}
+#legal p{margin-top:12px}
+#legal ul{margin:12px 0 0;padding-left:22px}
+#legal li{margin-top:6px}
+#legal a{text-decoration:underline}
+#legal .back{margin-top:34px;text-align:center}
+
 @media(max-width:1000px){
+  #legal{padding:30px 20px}
+  #legal h1{font-size:30px}
   #util .rated,#util .si{display:none}
   #util .call{font-size:14px;white-space:nowrap}
   #util .gs{height:34px;font-size:13px;white-space:nowrap}

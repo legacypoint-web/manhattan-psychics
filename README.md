@@ -8,6 +8,7 @@ Static HTML and CSS. No build step, no backend, no payments. Deployed on GitHub 
 
 - `index.html` — the lander
 - `thank-you.html` — where Get Started, Talk, and the callback form land
+- `privacy.html` — privacy policy, linked from the footer
 - `style.css`
 
 All advisors, photos, ratings, and reviews are placeholders. Phone number is a placeholder: (555) 010-0101.
