@@ -196,6 +196,8 @@ footer .legal .links a{margin-left:12px;font-weight:600}
 
 @media(max-width:900px){
   #util .rating,#nav .search,#nav ul,#util .right .signin{display:none}
+  #util .phone{white-space:nowrap;font-size:12px}
+  #util .phone a{font-size:15px}
   #nav .wrap{height:64px}
   #hero{height:360px}
   #hero h1{font-size:30px}
