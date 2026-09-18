@@ -1,8 +1,8 @@
 # Manhattan Psychics
 
-Phone-psychic landing page modeled on the layout of the established phone-psychic sites: phone number in the utility bar, photo hero with "Get Started", review strip, stats bar, testimonial cards, psychic cards with Callback and Talk buttons, category icons, match-me band, three-step "easy to get started", FAQ accordion, call-us block, link footer.
+Phone-psychic landing page built to the layout, spacing, typography, and color tokens of the established paid-search psychic landers: cream page, white cards, Vollkorn headings in green, Inter body, orange pill and ticket buttons, 315px psychic cards with Callback and Talk, browse-by-topic icons, match band, two-step "easy to get started", guarantee card, FAQ with expand-all, call-us card, link footer.
 
-One product difference: the advisor on the phone is an AI voice. The page says so once, plainly, in the "What is Manhattan Psychics?" section, and repeats it briefly in the FAQ and footer.
+One product difference: the advisor on the phone is an AI voice. The page says so once, plainly, in the "What is Manhattan Psychics?" section, and briefly in the FAQ and footer.
 
 Static HTML and CSS. No build step, no backend, no payments. Deployed on GitHub Pages from `main`.
 
