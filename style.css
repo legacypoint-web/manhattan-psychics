@@ -211,7 +211,8 @@ footer .legal .r b{display:block;margin-top:2px}
 
 @media(max-width:1000px){
   #util .rated,#util .si{display:none}
-  #util .call{font-size:15px}
+  #util .call{font-size:14px;white-space:nowrap}
+  #util .gs{height:34px;font-size:13px;white-space:nowrap}
   #hdr{height:auto;padding:14px 20px 10px;text-align:center}
   #hdr .search,#hdr nav{display:none}
   #hdr .logo{position:static;margin:0 auto}
