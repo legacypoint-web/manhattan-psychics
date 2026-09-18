@@ -43,10 +43,10 @@ p{margin:0}
 .logo b{display:block;font-family:Lora,Georgia,serif;font-size:22px;letter-spacing:1px;color:var(--purple);text-transform:uppercase}
 .logo span{display:block;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:600;margin-top:3px}
 .logo i{display:inline-block;color:var(--gold);font-style:normal;font-size:20px;margin-right:4px;vertical-align:-2px}
-#nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap}
+#nav ul{list-style:none;margin:0;padding:0;display:flex;gap:18px;flex-wrap:wrap}
 #nav ul a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:500}
 #nav ul a:hover{color:var(--purple);text-decoration:underline}
-#nav .search{border:1px solid var(--line);border-radius:20px;padding:7px 14px;font-size:12px;color:#888;width:230px;background:#fff}
+#nav .search{border:1px solid var(--line);border-radius:20px;padding:7px 14px;font-size:12px;color:#888;width:200px;background:#fff;white-space:nowrap;overflow:hidden}
 
 /* hero */
 #hero{position:relative;height:440px;background:#8d8a94;background:linear-gradient(100deg,#5e5568 0%,#8d8a94 50%,#b9b5bf 100%);color:#fff;overflow:hidden}
