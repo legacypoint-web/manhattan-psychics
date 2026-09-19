@@ -57,7 +57,7 @@ button:not(:disabled),[role="button"]:not(:disabled){cursor:pointer}
 #psy .slider{display:flex;gap:20px;overflow-x:auto;margin-top:20px;padding:0 0 14px;scrollbar-width:none}
 #psy .slider::-webkit-scrollbar{display:none}
 .pc{flex:0 0 315px;width:315px;border:1px solid var(--bd);border-radius:10px;padding:20px 20px 25px;text-align:center;background:#fff}
-.pc .img{width:263px;height:150px;border-radius:10px;background:#e4e6eb;display:flex;align-items:center;justify-content:center;color:#8a8a8a;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin:0 auto}
+.pc .img{width:263px;height:150px;border-radius:10px;background:#e4e6eb;overflow:hidden;margin:0 auto}.pc .img img{width:100%;height:100%;object-fit:cover;display:block}
 .pc .name{font-size:18px;font-weight:600;color:var(--g);margin-top:14px}
 .pc .name i{display:inline-block;width:14px;height:14px;border:1.5px solid var(--o);border-radius:50%;font-style:normal;font-size:9px;line-height:11px;color:var(--o);margin-left:4px;vertical-align:1px}
 .pc .rate{margin-top:8px;font-size:16px}
