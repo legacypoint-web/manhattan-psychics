@@ -33,7 +33,7 @@ button:not(:disabled),[role="button"]:not(:disabled){cursor:pointer}
 #hero .photo{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
 #hero .photo img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
 #hero .in{position:absolute;left:max(40px,calc((100% - 1240px) / 2));top:70px;width:640px;z-index:2}
-#hero h1{font-size:53px;font-weight:800;line-height:1.28;color:var(--g)}
+#hero h1{font-size:53px;font-weight:800;line-height:1.28;color:var(--g)}#hero .ai-note{margin-top:10px;font-size:18px;font-weight:600;color:var(--g);letter-spacing:.2px}
 #hero .ticket{margin-top:10px;width:280px;height:50px;font-size:16px}
 
 #stats{margin-top:-60px;position:relative;z-index:2;padding:40px;text-align:center}
@@ -56,7 +56,7 @@ button:not(:disabled),[role="button"]:not(:disabled){cursor:pointer}
 .pc{flex:0 0 315px;width:315px;border:1px solid var(--bd);border-radius:10px;padding:20px 20px 25px;text-align:center;background:#fff}
 .pc .img{width:263px;height:150px;border-radius:10px;background:#e4e6eb;overflow:hidden;margin:0 auto}.pc .img img{width:100%;height:100%;object-fit:cover;display:block}
 .pc .name{font-size:18px;font-weight:600;color:var(--g);margin-top:14px}
-.pc .name i{display:inline-block;width:14px;height:14px;border:1.5px solid var(--o);border-radius:50%;font-style:normal;font-size:9px;line-height:11px;color:var(--o);margin-left:4px;vertical-align:1px}
+.pc .name i{display:inline-block;width:14px;height:14px;border:1.5px solid var(--o);border-radius:50%;font-style:normal;font-size:9px;line-height:11px;color:var(--o);margin-left:4px;vertical-align:1px}.pc .role{font-size:13px;color:var(--g);margin-top:4px;font-weight:500}
 .pc .rate{margin-top:8px;font-size:16px}
 .pc .rate s{color:var(--g)}
 .pc .rate b{color:var(--od);font-weight:700}
@@ -135,7 +135,7 @@ footer .legal .r{display:flex;gap:16px;flex-wrap:wrap}
   #hero{height:380px;width:100%;margin-left:0}
   #hero .photo{display:block}
   #hero .in{left:20px;right:20px;top:36px;width:auto}
-  #hero h1{font-size:32px;line-height:40px}
+  #hero h1{font-size:32px;line-height:40px}#hero .ai-note{font-size:15px}
   #hero .ticket{width:240px}
   #stats{padding:30px 20px}
   #stats .row{flex-direction:column;gap:18px}
