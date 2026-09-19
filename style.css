@@ -29,15 +29,15 @@ button:not(:disabled),[role="button"]:not(:disabled){cursor:pointer}
 #hdr .logo b,.flogo b{display:block;font-family:Vollkorn,serif;font-weight:700;font-size:21px;line-height:22px;color:var(--g);letter-spacing:.5px;text-transform:uppercase}
 #hdr .logo span,.flogo span{display:block;font-size:9px;letter-spacing:2.2px;color:var(--g);text-transform:uppercase;margin-top:3px;font-weight:500}
 
-#hero{height:440px;position:relative;overflow:hidden;background:#ece6dd}
+#hero{height:440px;position:relative;overflow:hidden;background:#c47a32}
 #hero .photo{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
 #hero .photo img{width:100%;height:100%;object-fit:cover;object-position:center 42%;display:block}
-#hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(236,230,221,.72) 0%,rgba(236,230,221,.45) 38%,rgba(236,230,221,0) 62%);pointer-events:none}
+#hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.18) 0%,rgba(0,0,0,.06) 40%,rgba(0,0,0,0) 62%);pointer-events:none}
 #hero .in{position:absolute;left:40px;top:50px;width:800px;z-index:2}
-#hero h1{font-size:53px;font-weight:800;line-height:1.28;color:var(--g)}
+#hero h1{font-size:53px;font-weight:800;line-height:1.28;color:#fff}
 #hero .ticket{margin-top:10px;width:280px;height:50px;font-size:16px}
-#hero .sub{display:flex;margin-top:20px;font-size:14px;line-height:17px;color:var(--g)}
-#hero .sub div{padding:0 14px;border-left:1px solid var(--g);text-align:center}
+#hero .sub{display:flex;margin-top:20px;font-size:14px;line-height:17px;color:#fff}
+#hero .sub div{padding:0 14px;border-left:1px solid rgba(255,255,255,.7);text-align:center}
 #hero .sub div:first-child{border:0;padding-left:0;text-align:left}
 
 #stats{margin-top:-60px;position:relative;z-index:2;padding:40px;text-align:center}
