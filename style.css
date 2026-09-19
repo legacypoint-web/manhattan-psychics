@@ -30,8 +30,8 @@ button:not(:disabled),[role="button"]:not(:disabled){cursor:pointer}
 #hdr .logo span,.flogo span{display:block;font-size:9px;letter-spacing:2.2px;color:var(--g);text-transform:uppercase;margin-top:3px;font-weight:500}
 
 #hero{height:440px;position:relative;overflow:hidden;background:linear-gradient(90deg,#ece6dd 0%,#d8d0c4 45%,#bfb5a7 100%)}
-#hero .photo{position:absolute;right:0;top:0;width:52%;height:100%;display:flex;align-items:center;justify-content:center;color:rgba(28,87,61,.35);font-size:14px;letter-spacing:3px;text-transform:uppercase}
-#hero .photo span{border:1px dashed rgba(28,87,61,.35);padding:110px 70px}
+#hero .photo{position:absolute;right:0;top:0;width:52%;height:100%;overflow:hidden}
+#hero .photo img{width:100%;height:100%;object-fit:cover;object-position:72% 28%;display:block}
 #hero .in{position:absolute;left:40px;top:50px;width:800px}
 #hero h1{font-size:53px;font-weight:800;line-height:1.28;color:var(--g)}
 #hero .ticket{margin-top:10px;width:280px;height:50px;font-size:16px}
