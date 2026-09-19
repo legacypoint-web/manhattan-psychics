@@ -35,9 +35,6 @@ button:not(:disabled),[role="button"]:not(:disabled){cursor:pointer}
 #hero .in{position:absolute;left:max(40px,calc((100% - 1240px) / 2));top:70px;width:640px;z-index:2}
 #hero h1{font-size:53px;font-weight:800;line-height:1.28;color:var(--g)}
 #hero .ticket{margin-top:10px;width:280px;height:50px;font-size:16px}
-#hero .sub{display:flex;margin-top:20px;font-size:14px;line-height:17px;color:var(--g)}
-#hero .sub div{padding:0 14px;border-left:1px solid var(--g);text-align:center}
-#hero .sub div:first-child{border:0;padding-left:0;text-align:left}
 
 #stats{margin-top:-60px;position:relative;z-index:2;padding:40px;text-align:center}
 #stats .row{display:flex;justify-content:center;margin-top:30px}
