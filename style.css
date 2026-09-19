@@ -75,7 +75,7 @@ button:not(:disabled),[role="button"]:not(:disabled){cursor:pointer}
 #match .pill{margin-top:24px;height:47px;padding:0 25px}
 
 #easy{margin:20px 20px;padding:25px 30px 36px;text-align:center}
-.dome{width:351px;height:251px;margin:-25px auto 0;border-radius:176px 176px 0 0;background:#dcd8d2;display:flex;align-items:center;justify-content:center;color:#8a8a8a;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+.dome{width:351px;height:251px;margin:-25px auto 0;border-radius:176px 176px 0 0;background:#dcd8d2;overflow:hidden}.dome img{width:100%;height:100%;object-fit:cover;object-position:center 18%;display:block}
 #easy h2{margin-top:30px}
 #easy .steps{max-width:700px;margin:24px auto 0}
 #easy .step{margin-top:26px}
