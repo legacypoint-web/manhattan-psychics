@@ -1,8 +1,6 @@
 # Manhattan Psychics
 
-Phone-psychic intent lander. Advisor on the phone is an AI voice (disclosed in About, FAQ, and footer).
-
-Demand-test conversion is a name + cell request. No live line yet. No fake reviews.
+Phone-psychic intent lander. Demand-test conversion is a name + cell request. No live line yet. No fake reviews.
 
 Leads email to simon@legacypointads.com via FormSubmit. Confirm the first FormSubmit email.
 
